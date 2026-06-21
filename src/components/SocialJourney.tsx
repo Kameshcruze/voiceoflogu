@@ -2,7 +2,7 @@ import { SyntheticEvent } from 'react';
 import { motion } from 'motion/react';
 import { SOCIAL_PROFILES } from '../data';
 import { Instagram, Youtube, Facebook, MessageCircle, ArrowUpRight, ShieldCheck } from 'lucide-react';
-import profileImage from '../image_1.png';
+import profileImage from '../profile_1.webp';
 
 export default function SocialJourney() {
   const handleImageError = (e: SyntheticEvent<HTMLImageElement>) => {

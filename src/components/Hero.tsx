@@ -1,7 +1,7 @@
 import { SyntheticEvent } from 'react';
 import { motion } from 'motion/react';
 import { MessageCircle, ArrowRight, Music, Clapperboard, Sparkles, Users } from 'lucide-react';
-import profileImage from '../image_1.png';
+import profileImage from '../profile_1.webp';
 
 interface HeroProps {
   onScrollToSection: (sectionId: string) => void;
