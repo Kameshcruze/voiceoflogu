@@ -1,0 +1,6 @@
+{
+  "name": "Voice of Logu",
+  "description": "Premium personal brand portfolio website of Logammal (Voice of Logu) — professional singer, actor, and content creator from Erode, Tamil Nadu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

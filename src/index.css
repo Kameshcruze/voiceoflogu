@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Geist", "Inter", "SF Pro Display", -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-brand-primary: #733380;
+  --color-brand-secondary: #D8D8D8;
+  --color-brand-accent: #909090;
+  --color-brand-bg: #F5F5F5;
+  --color-brand-card: #EFEFEF;
+  --color-brand-text: #2A2A2A;
+  --color-brand-text-muted: #666666;
+  --color-brand-success-bg: #D7F3E3;
+  --color-brand-success-text: #0A8F4B;
+  
+  --shadow-premium: 0 4px 30px rgba(0, 0, 0, 0.03);
+  --shadow-premium-hover: 0 10px 40px rgba(115, 51, 128, 0.06);
+  --radius-premium: 1.5rem;
+}
+
+body {
+  background-color: var(--color-brand-bg);
+  color: var(--color-brand-text);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar customizations for premium modern creator feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-brand-bg);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-brand-secondary);
+  border-radius: 9999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-brand-accent);
+}
+
+/* Subtle glowing background effect behind the circular image frame */
+.premium-glow-effect {
+  box-shadow: 0 0 80px 20px rgba(115, 51, 128, 0.25);
+}
+
+/* Keyframe for floating animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-float {
+  animation: float 6s ease-in-out infinite;
+}
+
