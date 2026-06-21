@@ -210,7 +210,7 @@ export const SOCIAL_PROFILES: SocialProfile[] = [
     displayName: 'Voice of Logu Official',
     category: 'Performances & Music',
     followersCount: 'Coming Soon',
-    profileUrl: '#',
+    profileUrl: 'https://www.youtube.com/@voiceof_logu',
     actionText: 'Subscribe on YouTube'
   },
   {
@@ -220,7 +220,7 @@ export const SOCIAL_PROFILES: SocialProfile[] = [
     displayName: 'Voice of Logu',
     category: 'Artist Community',
     followersCount: 'Active Community',
-    profileUrl: '#',
+    profileUrl: 'https://www.facebook.com/share/1Gv2e79cPo/',
     actionText: 'Connect on Facebook'
   },
   {
